@@ -1,0 +1,132 @@
+header {
+  background-color: #f9e2c8;
+  display: flex;
+  gap: 10px;
+  padding: 15px 30px;
+  border-bottom: 3px solid #e4b48c;
+  align-items: center;
+}
+
+header img {
+  height: 60px;
+}
+
+.navbar {
+  background-color: #fff3e0;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 3px solid #e4b48c;
+  margin-bottom: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: brown;
+  background-color: #f28c8c;
+  font-weight: bold;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff8ee;
+  border-radius: 25px;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+footer {
+  background-color: #f9e2c8;
+  text-align: center;
+  padding: 15px;
+  border-top: 3px solid #e4b48c;
+}
+
+.login-form {
+  padding: 20px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+input {
+  background-color: #fff8ee;
+  border: 1px solid #e4b48c;
+}
+
+button, .btn {
+  background-color: #f28c8c;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 8px 14px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.section-container {
+  display: inline-block;
+}
+
+select {
+  background-color: #fff8ee;
+  border-radius: 10px;
+  padding: 6px 10px;
+  border: 2px solid #e4b48c;
+  text-align: center;
+}
+
+.ice-cream-tiles {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  vertical-align: top;
+}
+
+.remove-btn {
+  background-color: #c94c4c;
+}
+
+.second-container div {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #fff8ee;
+    padding: 10px 15px;
+    text-align: left;
+  }
+
+img {
+  height: 200px;
+}
