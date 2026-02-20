@@ -1,10 +1,14 @@
+body {
+  margin: 0;
+}
+
 header {
   background-color: #f9e2c8;
   display: flex;
+  align-items: center;
   gap: 10px;
   padding: 15px 30px;
   border-bottom: 3px solid #e4b48c;
-  align-items: center;
 }
 
 header img {
@@ -42,11 +46,20 @@ main {
 section {
   background-color: #fff8ee;
   border-radius: 25px;
-  text-align: center;
   padding: 25px;
   margin-bottom: 40px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tiles-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h2 {
+  text-align: center;
 }
 
 footer {
@@ -54,10 +67,6 @@ footer {
   text-align: center;
   padding: 15px;
   border-top: 3px solid #e4b48c;
-}
-
-.login-form {
-  padding: 20px;
 }
 
 form {
@@ -82,27 +91,22 @@ button, .btn {
   margin-bottom: 10px;
 }
 
-.section-container {
-  display: inline-block;
-}
-
 select {
   background-color: #fff8ee;
   border-radius: 10px;
   padding: 6px 10px;
   border: 2px solid #e4b48c;
-  text-align: center;
 }
 
-.ice-cream-tiles {
+.tiles-container div {
   display: inline-block;
   background-color: #ffffff;
   border-radius: 20px;
   padding: 15px;
   margin: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
-  vertical-align: top;
+  width: 300px;
 }
 
 .remove-btn {
@@ -116,7 +120,16 @@ select {
   margin: 15px;
   display: inline-block;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.banner-img {
+  height: 200px;
+}
+
+.tiles-img {
+  height: 150px;
+  border-radius: 15px;
 }
 
  table, th, td {
@@ -127,6 +140,4 @@ select {
     text-align: left;
   }
 
-img {
-  height: 200px;
-}
+
